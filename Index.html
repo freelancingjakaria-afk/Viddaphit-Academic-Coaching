@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viddahphit Academy</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <h1>Viddahphit Academy</h1>
+    <p>Welcome to our official website</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Notice</a></li>
+        <li><a href="#">Admission</a></li>
+        <li><a href="#">Result</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><button onclick="logout()">Logout</button></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h3>Important Links</h3>
+        <ul>
+            <li><a href="#">Online Form</a></li>
+            <li><a href="#">Results</a></li>
+            <li><a href="#">Routine</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="content">
+
+        <h2>Add Notice (Admin)</h2>
+
+        <form id="notice-form">
+            <input type="text" id="notice-input" placeholder="Write notice..." required>
+            <button type="submit">Add Notice</button>
+        </form>
+
+        <h2>Latest Notices</h2>
+        <div id="notice-container"></div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Viddahphit Academy | All Rights Reserved</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
